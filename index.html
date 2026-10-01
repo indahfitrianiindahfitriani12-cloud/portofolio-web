@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Indah Fitriani Aziz Pasaribu</title>
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+  
+  <style>
+    :root { --bs-primary:#2f7d5e; --bs-primary-rgb:47,125,94; --bs-body-font-family:'Plus Jakarta Sans',sans-serif; }
+    .btn-primary { --bs-btn-bg:#2f7d5e; --bs-btn-border-color:#2f7d5e; --bs-btn-hover-bg:#256349; --bs-btn-hover-border-color:#256349; }
+    .navbar { background:#1f3a32; }
+    .hero { background:linear-gradient(135deg,#1f3a32,#2f7d5e); }
+    html { scroll-behavior:smooth; scroll-padding-top:70px; }
+    .card { transition:transform .2s; }
+    .card:hover { transform:translateY(-4px); }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-md fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#beranda">K.</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#menuUtama"
+              aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuUtama">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Saya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyek">Keahlian &amp; Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header id="beranda" class="hero text-white pt-5">
+    <div class="container py-5 mt-4">
+      <div class="col-lg-8">
+        <p class="mb-2 text-white-50">Program Studi Teknik Komputer, Politeknik Negeri Medan</p>
+        <h1 class="display-4 fw-bold mb-3">Hai, saya Indah Fitriani</h1>
+        <p class="lead mb-4">Halaman ini berisi profil singkat dan proyek yang pernah saya kerjakan
+          selama perkuliahan.</p>
+        <a href="#proyek" class="btn btn-light btn-lg me-2 mb-2">Lihat Proyek</a>
+        <a href="#kontak" class="btn btn-outline-light btn-lg mb-2">Hubungi Saya</a>
+      </div>
+    </div>
+  </header>
+
+  
+  <section id="tentang" class="py-5">
+    <div class="container py-4">
+      <h2 class="fw-bold mb-4">Tentang Saya</h2>
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-md-4 text-center">
+          <img src="fotoku.jpeg"
+               class="rounded-circle img-fluid shadow border border-4 border-white"
+               style="width:220px;height:220px;object-fit:cover" alt="Foto profil">
+        </div>
+
+        <div class="col-12 col-md-8">
+          <h3 class="h4 fw-bold">Indah Fitriani Aziz Pasaribu</h3>
+          <p class="text-muted mb-3">Saya mahasiswa Program Studi Teknik Komputer di Politeknik Negeri Medan yang sedang mendalami pada
+            bidang Internet of Things, keamanan siber, dan jaringan komputer.</p>
+          <p class="mb-0">Saat ini saya masih terus belajar melalui praktik langsung dan terbuka untuk
+            berdiskusi.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="proyek" class="py-5 bg-light">
+    <div class="container py-4">
+      <h2 class="fw-bold mb-1">Keahlian &amp; Proyek</h2>
+      <p class="text-muted mb-4">Beberapa proyek dan bidang yang pernah saya kerjakan.</p>
+
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Smart Farming Berbasis IoT dan AI</h5>
+              <p class="card-text">Sistem penyiraman tanaman otomatis yang dilengkapi pemantauan
+                kualitas tanah secara real-time menggunakan sensor IoT dan kecerdasan buatan.</p>
+              <span class="badge text-bg-primary">IoT</span>
+              <span class="badge text-bg-secondary">AI</span>
+              <span class="badge text-bg-secondary">Smart Farming</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Keamanan Web &amp; CTF</h5>
+              <p class="card-text">Meraih juara pada lomba CTF Jeopardy. Mempelajari cara menemukan
+                celah keamanan pada aplikasi web dan cara memperbaikinya.</p>
+              <span class="badge text-bg-primary">Cyber Security</span>
+              <span class="badge text-bg-secondary">Web</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Junior Network Administrator</h5>
+              <p class="card-text">Mengikuti pelatihan Junior Network Administrator yang membahas
+                dasar-dasar perancangan, konfigurasi, dan pengelolaan jaringan komputer.</p>
+              <span class="badge text-bg-primary">Jaringan</span>
+              <span class="badge text-bg-secondary">Pelatihan</span>
+            </div>
+          </div>
+        </div>
+    
+
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="py-5">
+    <div class="container py-4 text-center">
+      <h2 class="fw-bold mb-2">Kontak</h2>
+      <p class="text-muted mb-4">Silakan hubungi saya untuk berdiskusi atau berkolaborasi.</p>
+      <a href="mailto:indahfitriani952@gmail.com" class="btn btn-primary btn-lg me-2 mb-2">Kirim Email</a>
+    </div>
+  </section>
+
+  
+  <footer class="text-white text-center py-3" style="background:#1f3a32">
+    <small>&copy; 2026 Indah Fitriani Aziz Pasaribu &ndash; NIM 2405112072</small>
+  </footer>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
